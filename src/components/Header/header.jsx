@@ -22,7 +22,7 @@ export default function header(){
                     </ul>
                 </nav>
                 <div className={S.boxInput}>
-                    <input type="text" />
+                    <input type="text" placeholder='O que você procura?' />
                     <img src={busca} alt="Desenho de uma lupa" />
                 </div>
             </header>
