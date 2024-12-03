@@ -7,14 +7,14 @@ import balanca from '../../assets/balanca.png'
 export default function Inicio(){
     return(
         <main>
-            <section>
+            <section className={S.post}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
-            <section>
+            <section className={S.devoDoar}>
                 <div>
                     <h2>Por que devo doar?</h2>
                 </div>
-                <section>
+                <section className={S.boxCard}>
                     <article>
                         <img src={network} alt="Quatro pessoas conectadas através de um círculo" />
                         <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social. </p>
