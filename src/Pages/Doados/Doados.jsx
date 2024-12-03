@@ -3,9 +3,9 @@ import livro from '../../assets/livro.png'
 
 export default function Doados(){
     return(
-        <section>
+        <section className={S.boxDoados}>
             <h2>Livros Doados</h2>
-            <section>
+            <section className={S.boxBooks}>
                 <article>
                     <img src={livro} alt="imagem do livro o protagonista" />
                     <h3>O protagonista</h3>
