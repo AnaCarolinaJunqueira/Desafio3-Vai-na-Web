@@ -1,5 +1,5 @@
 import S from './queroDoar.module.scss'
-import livro from '../../assets/Vector.png'
+import livro from '../../assets/livro.png'
 import axios from 'axios'
 import {useState} from 'react'
 
