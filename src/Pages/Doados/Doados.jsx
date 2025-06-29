@@ -31,7 +31,7 @@ export default function Doados(){
                 {/* Renderização dos livros recebidos da API */}
                 {livros.map((item)=> (
                     <article key={item.id}>
-                        <img src={item.image_url} alt={item.titulo} />
+                        <img src={item.imagem_url} alt={item.titulo} />
                         <h3>{item.titulo}</h3>
                         <p>{item.autor}</p>
                         <p>{item.categoria}</p>
